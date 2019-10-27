@@ -9,5 +9,5 @@ fun main() {
     langs.put("Kotlin",".kt")
     langs.put("Python",".py")
     langs.put("Javascript",".js")
-    langs.forEach(({(k,v)-> println("Clave $k valor $v")}))
+    langs.forEach { (k,v)-> println("Clave $k valor $v")}
 }
