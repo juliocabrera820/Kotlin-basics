@@ -5,7 +5,7 @@ fun main() {
     var langs:MutableMap<String,String> = mutableMapOf()
     langs.put("Java",".java")
     langs.put("GO",".go")
-    langs.put("Ruby","rb")
+    langs.put("Ruby",".rb")
     langs.put("Kotlin",".kt")
     langs.put("Python",".py")
     langs.put("Javascript",".js")
